@@ -19,8 +19,8 @@ header {
   padding: 0px 100px;
   background-color: #f5f6fa86;
   backdrop-filter: blur(3px);
-  position:sticky;
-  top:0px;
+  position: sticky;
+  top: 0px;
   max-width: 1200px;
   z-index: 10;
 }
@@ -28,7 +28,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0px;
+  padding: 8px 0px;
   backdrop-filter: blur(2px);
 }
 header section h2 {
@@ -190,8 +190,8 @@ header nav ul li a {
 }
 .imgWrapper {
   margin-top: 10px;
-    position: relative;
-    height: 70px;
+  position: relative;
+  height: 70px;
 }
 .imgShowCard {
   position: absolute;
@@ -267,15 +267,14 @@ header nav ul li a {
   border: none;
   outline: none;
   color: var(--color-mainColor);
-  background-color: white ;
+  background-color: white;
 }
 .info-section {
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
   margin-top: 40px;
-  padding: 0px 160px 0px 200px;
-  height: 100vh;
+  padding: 20px 160px 20px 200px;
   display: flex;
   justify-content: space-between;
   align-items: self-start;
@@ -323,7 +322,7 @@ header nav ul li a {
 }
 .card-img-float:nth-child(1) {
   right: 240px;
-   top: -25px;
+  top: -25px;
 }
 .card-img-float:nth-child(2) {
   right: 0;
@@ -337,4 +336,131 @@ header nav ul li a {
   height: 100%;
   object-fit: cover;
   border-radius: 9px;
+}
+.memory-section {
+  max-width: 1200px;
+  padding: 0px 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.title-memory {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.discrib-memory {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.767);
+  margin-top: 10px;
+  text-align: center;
+}
+.memory-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.memory-list {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+}
+.memory-items {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.list-of-sentance {
+  font-size: 1rem;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: var(--color-mainColor);
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+.two {
+  background-color: #007bbd;
+}
+.three {
+  background-color: #00669e;
+}
+.memory-items h5 {
+  font-size: 1rem;
+}
+.memory-items p {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.767);
+  margin-top: 5px;
+  line-height: 23px;
+}
+.memory-image-container {
+  position: relative;
+}
+.memory-image-content {
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  position: relative;
+}
+.card-float{
+  display: flex;
+  justify-content: space-center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.813);
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  height: 50px;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;   
+  box-shadow: 1px 1px 23px -3px #737373;
+}
+
+.card-float:nth-child(2){
+  top: 60px;
+  left: -50px;
+
+}
+.card-float:nth-child(3){
+  
+  top:40%;
+  transform: translateY(-50%);
+  right: -50px;
+
+}
+.card-float:nth-child(4){
+  bottom: 110px;
+  left: -50px; 
+}
+.memory-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.card-float-img{
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.card-float-rate{
+  color:var(--color-mainColor)
+}
+.card-float-name{
+  font-size: 0.8rem;
+}
+footer{
+  background-color: var(--color-gray);
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center;
+  margin-top: 50px;
 }
