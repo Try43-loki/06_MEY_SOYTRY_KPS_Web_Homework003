@@ -41,9 +41,9 @@ header nav {
 .nav-link:active {
   color: red !important;
 }
-/* .nav-link:visited{
+.nav-link:visited{
   color:purple;
-} */
+}
 header section h2 {
   font-size: 1.4rem;
 }
